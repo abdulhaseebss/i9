@@ -2,9 +2,13 @@ import Section2 from "../components/section2/Section2"
 import Section3 from "../components/section3/Section3"
 import Group from "../assets/Group1321314912.png"
 import Banner from "@/components/banner/Banner"
+import Section4 from "@/components/section4/Section4"
+import Section5 from "@/components/section5/Section5"
 
 
 const Interoperability = () => {
+
+// Section 3 object
 
 const obj = [
 
@@ -68,6 +72,8 @@ const obj = [
 <Banner heading={"Maximizing Efficiency"} text={"Advantages of Hospital Information System"}/>
 <Section2 image={Group} heading={text} pera={peragraph}/>
 <Section3/>
+<Section4/>
+<Section5/>
 
 </>
   )
