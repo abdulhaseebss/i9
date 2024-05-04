@@ -67,7 +67,20 @@ const obj = [
 <>
 <Banner heading={"Maximizing Efficiency"} text={"Advantages of Hospital Information System"}/>
 <Section2 image={Group} heading={text} pera={peragraph}/>
-<Section3/>
+<div className="flex justify-center">
+        <p className="text-center font-bold text-[46px]"> <span className="text-[#8ABC3E]">Key Advantages </span>of Hospital <br/> Information Systems</p>
+       
+    </div>
+
+
+<div className="flex justify-evenly flex-wrap mt-16 gap-6">
+
+{
+  obj.map((item , index)=>{
+    return <Section3 heading={item.heading} pera={item.headPara}/>
+  })
+}
+</div>
 
 </>
   )

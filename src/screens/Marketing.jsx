@@ -2,6 +2,9 @@ import React from 'react'
 import Banner from '../components/banner/Banner'
 import Section2 from '@/components/section2/Section2'
 import group123 from "../assets/Group123.png"
+import Sec3Market from '@/components/section3/Sec3Market'
+import Footer from '@/components/footer/Footer'
+import Conclution from '@/components/footer/Conclution'
 
 const Marketing = () => {
 
@@ -17,6 +20,9 @@ const Marketing = () => {
     <div>
       <Banner heading={textval}/>
       <Section2 image={group123} heading={text} pera={peragraph}/>
+      <Sec3Market/>
+      <Conclution/>
+      <Footer/>
     </div>
   )
 }
