@@ -10,8 +10,8 @@ const RouterConfig = () => {
       <BrowserRouter>
       <Navbar />
         <Routes>
-          <Route path="/" element={<Marketing />} />
-          <Route path="/" element={<Interoperability />} />
+          <Route path="/marketing" element={<Marketing />} />
+          <Route path="/interoperability" element={<Interoperability />} />
         </Routes>
       </BrowserRouter>
     </>

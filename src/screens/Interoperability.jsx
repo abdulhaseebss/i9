@@ -1,11 +1,14 @@
-import React from 'react'
-import vector from "../../src/assets/vector.png"
+import Section2 from "../components/section2/Section2"
+import Section3 from "../components/section3/Section3"
+
 
 const Interoperability = () => {
   return (
-    <div>
-        <img src={vector} alt=''/>
-    </div>
+<>
+<Section2/>
+<Section3/>
+
+</>
   )
 }
 
