@@ -1,5 +1,5 @@
 import React from "react";
-import banner from "../../assets/Vector.png";
+import banner from "../../assets/banner.png";
 import ShapeGroup from "../../assets/ShapeGroup.png";
 
 const Banner = (props) => {
