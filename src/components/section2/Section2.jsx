@@ -10,7 +10,7 @@ const Section2 = (props) => {
     <div className="flex justify-around flex-wrap">
         
         <div className="img">
-        <img className="w-[390px] h-[500px] mb-4" src={props.image} alt='image'/>
+        <img className="w-[390px] mb-4" src={props.image} alt='image'/>
         </div>
         <div className="img-para text-wrap">
           <p className="font-bold text-[36px] max-[600px]:text-xl">{props.heading}</p>
