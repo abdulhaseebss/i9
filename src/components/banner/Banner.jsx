@@ -16,7 +16,7 @@ const Banner = (props) => {
         </div>
       </div>
 
-        <div className="flex justify-center items-end h-[60vh]">
+        <div className="flex justify-center items-end h-[60vh] max-[750px]:h-[40vh]">
           <img src={ShapeGroup} alt="ShapeGroup" />
         </div>
     </>
