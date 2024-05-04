@@ -1,21 +1,25 @@
 
 import vector from "../../assets/vector.png"
-import Group from "../../assets/Group1321314912.png"
+
+
+
 import Vector2 from "../../assets/vector2.svg"
 
-const Section2 = () => {
+const Section2 = (props) => {
   return (
-    <div>
+    <div className="outfit">
         <>
 <img className="mt-[70px]" src={vector} alt=''/>
     <div className="flex justify-around flex-wrap">
         
         <div className="img">
-        <img className="w-[390px] h-[500px]" src={Group} alt=''/>
+        <img className="w-[390px] h-[500px] mb-4" src={props.image} alt='image'/>
         </div>
         <div className="img-para text-wrap">
-          <p className="font-bold text-[36px] outfit"><span className="text-[#8ABC3E]">The Essential Role </span> of Hospital <br/> Information Systems</p>
-          <p className="text-[18px] mt-14 outfit-card">In the rapidly evolving landscape of healthcare, the integration of <br/> technology has become a cornerstone for enhancing operational <br/> efficiency and elevating patient care standards. At the heart of <br/> this technological revolution lies the Hospital Information System <br/> (HIS), a comprehensive suite that seamlessly integrates various <br/> aspects of hospital operations, from patient management to <br/> administrative workflows. The adoption of HIS is not just a trend <br/> but a necessary evolution to meet the increasing demands of <br/> modern healthcare delivery, ensuring that patient care is both <br/> effective and efficient.
+
+          <p className="font-bold text-[36px] max-[600px]:text-xl">{props.heading}</p>
+          <p className="text-[18px] mt-14 font-medium text-[#1e1e1ea8] max-[600px]:text-sm">{props.pera}
+
         </p>
         </div>
     </div>
