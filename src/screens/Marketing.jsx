@@ -1,5 +1,6 @@
 import React from 'react'
 import Banner from '../components/banner/Banner'
+import Sec4marketing from '@/components/section4marketing/sec4marketing'
 
 const Marketing = () => {
 
@@ -8,6 +9,7 @@ const Marketing = () => {
   return (
     <div>
       <Banner heading={textval}/>
+      <Sec4marketing/>
     </div>
   )
 }
