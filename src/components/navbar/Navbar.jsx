@@ -49,7 +49,7 @@ const Navbar = () => {
 
           <div>
           <Sheet>
-             <SheetTrigger ><i class="fa-solid fa-bars text-xl"></i></SheetTrigger>
+             <SheetTrigger ><i className="fa-solid fa-bars text-xl"></i></SheetTrigger>
              <SheetContent className="bg-white">
                <SheetHeader className="list-none text-xl outfit gap-2 mt-8">
                  {/* <SheetTitle>Are you absolutely sure?</SheetTitle> */}

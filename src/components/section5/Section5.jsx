@@ -11,7 +11,7 @@ const obj = [
 
     {
         head: "ABHA Enablement:",
-        para: "With ABHA (Ayushman Bharat Health Account) enablement, Super Dr Super Dr is not just an HIS; it's a holistic solution that caters to every conceivable need of a hospital or clinic. From pharmacy management to inventory control, appointment scheduling, and billing, Super Dr's modules are designed to streamline operations, improve efficiency, and enhance patient care.is at the forefront of supporting national health initiatives, ensuring that patients can securely access and share their health records across the healthcare ecosystem, promoting continuity of care and patient empowerment."
+        para: "With ABHA (Ayushman Bharat Health Account) enablement, Super Dr is at the forefront of supporting national health initiatives, ensuring that patients can securely access and share their health records across the healthcare ecosystem, promoting continuity of care and patient empowerment."
 
         
     },
@@ -45,14 +45,19 @@ const obj = [
 
 
   return (
-    <div className=" bg-[#F5F5F9]">
-    <div className="mt-10">
+    <div className=" ">
+    <div className="mt-20 bg-[#F5F5F9] pt-3 pb-6">
     <p className="outfit text-5xl text-center mt-20">
         The Super Dr <span className="text-[#8ABC3E]"> Advantages</span>
       </p>
-      <img className="ml-28 h-32" src={vector75} alt="" />
-      <div className="flex justify-evenly flex-wrap gap-5">
-      <Section5Card/>
+      <img className="ml-28 h-32 max-[680px]:hidden" src={vector75} alt="" />
+      <div className="flex justify-center flex-wrap gap-5 mb-20 max-[680px]:mt-10">
+        {
+            obj.map((item)=>{
+               return <Section5Card heading={item.head} pera={item.para}/>
+            })
+        }
+      
    
       </div>
     </div>
