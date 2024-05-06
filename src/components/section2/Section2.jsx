@@ -13,7 +13,7 @@ const Section2 = (props) => {
     <div className={`flex justify-around flex-wrap ${props.mirror}`}>
         
         <div className="img">
-        <img className="w-[390px] mb-4 mr-4" src={props.image} alt='image'/>
+        <img className="w-[390px] mb-4 mr-4 max-[600px]:w-[250px]" src={props.image} alt='image'/>
         </div>
         <div className="img-para text-wrap">
 
