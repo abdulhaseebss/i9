@@ -40,8 +40,8 @@ const FaqSection = () => {
  
     <div className='mt-16'>
 
-        {obj.map((item)=>{
-          return  <FaqCard ques={item.ques} ans={item.ans}/>
+        {obj.map((item , index)=>{
+          return  <FaqCard key={index} ques={item.ques} ans={item.ans}/>
         })}
        
     </div>

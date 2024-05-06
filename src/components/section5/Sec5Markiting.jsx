@@ -11,27 +11,27 @@ const Sec5Markiting = () => {
     const obj = [
         {
             head: "Business Management",
-            para: "Our journey to excellence is paved with the hard work, dedication, and passion of our team members...",
+            para: "Our journey to excellence is paved with the hard work, dedication, and passion of our team members",
             image: mask1
         },
         {
             head: "Account Management",
-            para: "At i9 Innovations, we take immense pride in the awards and recognition we have received over the years...",
+            para: "At i9 Innovations, we take immense pride in the awards and recognition we have received over the years",
             image: mask2
         },
         {
             head: "Error Reduction",
-            para: "The insights and expertise of our Key Opinion Leaders (KOL) doctors have been instrumental in guiding our path...",
+            para: "The insights and expertise of our Key Opinion Leaders (KOL) doctors have been instrumental in guiding our path",
             image: mask3
         },
         {
             head: "Task Automation",
-            para: "At i9 Innovations, we foster a culture where innovation thrives and excellence is the norm...",
+            para: "At i9 Innovations, we foster a culture where innovation thrives and excellence is the norm",
             image: mask4
         },
         {
             head: "Integration Capabilities",
-            para: "While we take a moment to celebrate our achievements, we remain focused on the future...  ",
+            para: "While we take a moment to celebrate our achievements, we remain focused on the future",
             image: mask5
         },
     ]

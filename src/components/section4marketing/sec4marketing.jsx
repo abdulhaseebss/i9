@@ -55,8 +55,8 @@ const obj = [
 
           <div className=" w-[700px] grid-cols-2 gap-6 place-content-start flex-wrap flex justify-center">
 
-          {obj.map((item)=>{
-             return <Sec4MarketCard head={item.head} pera={item.para} image={item.image}/>
+          {obj.map((item ,index)=>{
+             return <Sec4MarketCard key={index} head={item.head} pera={item.para} image={item.image}/>
                
           })}
         
