@@ -2,9 +2,15 @@ import Section2 from "../components/section2/Section2"
 import Section3 from "../components/section3/Section3"
 import Group from "../assets/Group1321314912.png"
 import Banner from "@/components/banner/Banner"
+import Section4 from "@/components/section4/Section4"
+import Section5 from "@/components/section5/Section5"
+import Footer from "@/components/footer/Footer"
+import Conclution from "@/components/footer/Conclution"
 
 
 const Interoperability = () => {
+
+// Section 3 object
 
 const obj = [
 
@@ -63,24 +69,34 @@ const obj = [
   
   const peragraph = <p>In the rapidly evolving landscape of healthcare, the integration of <br/> technology has become a cornerstone for enhancing operational <br/> efficiency and elevating patient care standards. At the heart of <br/> this technological revolution lies the Hospital Information System <br/> (HIS), a comprehensive suite that seamlessly integrates various <br/> aspects of hospital operations, from patient management to <br/> administrative workflows. The adoption of HIS is not just a trend <br/> but a necessary evolution to meet the increasing demands of <br/> modern healthcare delivery, ensuring that patient care is both <br/> effective and efficient.</p>
 
+  const conclutionHead = <p>In <span className="text-[#8ABC3E]">Conclusion</span></p>
+  const conclutionpera = "He journey of electronic medical records (EMR) from its humble beginnings to the digital excellence of platforms like Super Dr is a testament to the transformative power of technology in healthcare. With systems like Super Dr EMR, the future of patient record management"
+
   return (
 <>
 <Banner heading={"Maximizing Efficiency"} text={"Advantages of Hospital Information System"}/>
-<Section2 image={Group} heading={text} pera={peragraph}/>
+<Section2 image={Group} heading={text} pera={peragraph} hidden={"hidden"} />
+
 <div className="flex justify-center">
-        <p className="text-center font-bold text-[46px]"> <span className="text-[#8ABC3E]">Key Advantages </span>of Hospital <br/> Information Systems</p>
+        <p className="text-center font-bold text-[46px] outfit"> <span className="text-[#8ABC3E]">Key Advantages </span>of Hospital <br/> Information Systems</p>
        
     </div>
 
 
-<div className="flex justify-evenly flex-wrap mt-16 gap-6">
+<div className="flex justify-center flex-wrap mt-16 gap-6">
 
 {
   obj.map((item , index)=>{
-    return <Section3 heading={item.heading} pera={item.headPara}/>
+    return <Section3 key={index} heading={item.heading} pera={item.headPara}/>
   })
 }
 </div>
+
+{/* <Section3/> */}
+<Section4/>
+<Section5/>
+<Conclution heading={conclutionHead} pera={conclutionpera}/>
+<Footer/>
 
 </>
   )
