@@ -63,7 +63,7 @@ const obj = [
           </div>
 
       <div className="marker4img child-2">
-          <img className="h-[420px] " src={sec4} alt="" />
+          <img className="w-[400px] " src={sec4} alt="" />
         </div>
       </div>
 

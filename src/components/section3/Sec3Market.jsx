@@ -9,7 +9,7 @@ const Sec3Market = () => {
       </div>
  
       <div className="flex justify-center mt-20 gap-24 items-center flex-wrap">
-        <img className="w-[55vh]" src={market} alt="market" />
+        <img className="w-[300px]" src={market} alt="market" />
         <div className="w-[38%] max-[800px]:w-[80%]">
         <p className="font-bold text-2xl ml-5 outfit"><span className="text-[#8ABC3E]">Immediate Access</span> to Healthcare Services</p>
         <p className="mt-5 mx-5 outfit-card">We tailor content strategies to meet healthcare needs, fostering patient loyalty. Our approach communicates empathy, expertise, and reliability—qualities patients value in providers. With SEO optimization, we boost your online visibility, making it easier for patients to find and choose your services.</p>
