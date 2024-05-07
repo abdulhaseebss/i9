@@ -18,7 +18,7 @@ const Marketing = () => {
 
 
 
-  const textval = <p>Customized Clinic & Pharmacy App <br /> Development | i9 Innovations</p>
+  const textval = <p>Customized Clinic & Pharmacy App Development | i9 Innovations</p>
 
 
   const text = <p>Transforming Healthcare <br /> Delivery with<span className="text-[#8ABC3E]"> Innovation App</span></p>

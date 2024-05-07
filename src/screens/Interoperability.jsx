@@ -67,6 +67,9 @@ const obj = [
 ]
 
 
+
+
+
   const text = <p><span className="text-[#8ABC3E]">The Essential Role</span>  of Hospital <br /> Information Systems</p>
   
   const peragraph = <p>In the rapidly evolving landscape of healthcare, the integration of technology has become a cornerstone for enhancing operational efficiency and elevating patient care standards. At the heart of this technological revolution lies the Hospital Information System (HIS), a comprehensive suite that seamlessly integrates various <br/> aspects of hospital operations, from patient management to administrative workflows. The adoption of HIS is not just a trend  but a necessary evolution to meet the increasing demands of modern healthcare delivery, ensuring that patient care is both effective and efficient.</p>
