@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
 
         <div className='outfit max-[1200px]:mt-[8vh] max-[1200px]:mb-[8vh]'>
-            <img className='absolute max-[1200px]:hidden transition-all' src={rectangle} alt="rectangle" />
+            <img className='absolute  max-[1200px]:h-[60vh] transition-all' src={rectangle} alt="rectangle" />
 
             <div className=' flex flex-wrap justify-evenly text-white max-[1200px]:text-black relative items-start h-full z-50 px-28 gap-12'>
 
@@ -67,7 +67,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div className='relative z-50 mt-7 max-[1400px]:mt-3 outfit bg-[#006FAF] text-center text-white p-8'>
+        <div className='relative z-50 max-[1400px]:mt-3 outfit bg-[#006FAF] text-center text-white p-8'>
             <p className='font-light'>COPYRIGHT © 2015 - 2024 I9 INNOVATIONS & EDUCATIONS PVT, LTD. |PRIVACY POLICY| DISCLAIMER| ALL RIGHTS RESERVED</p>
         </div>
     </>

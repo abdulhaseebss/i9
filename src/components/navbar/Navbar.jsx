@@ -25,7 +25,7 @@ const Navbar = () => {
         <div className='list-none flex bg-[#0065C0] text-white items-center justify-between px-8 p-2 w-[90%] mt-6 rounded-2xl outfit max-[950px]:hidden'>
           <div className='flex gap-10 max-[1100px]:gap-5 transition-all'>
             <li className='cursor-pointer hover:text-[#A3DC2F] transition-all'>Company</li>
-            <li className='cursor-pointer hover:text-[#A3DC2F] transition-all'>Software</li>
+            <li className='cursor-pointer hover:text-[#A3DC2F] transition-all'><Link to={'software'}>Software</Link></li>
             <li className='cursor-pointer hover:text-[#A3DC2F] transition-all'><Link to={'marketing'}>Marketing</Link></li>
             <li className='cursor-pointer hover:text-[#A3DC2F] transition-all'>Blogs</li>
           </div>
@@ -58,7 +58,7 @@ const Navbar = () => {
                    and remove your data from our servers.
                  </SheetDescription> */}
                  <li className='hover:text-[#A3DC2F] transition-all'>Company</li>
-                 <li className='hover:text-[#A3DC2F] transition-all'>Software</li>
+                 <li className='hover:text-[#A3DC2F] transition-all'><Link to={'software'}>Software</Link></li>
                  <li className='hover:text-[#A3DC2F] transition-all'><Link to={'marketing'}>Marketing</Link></li>
                  <li className='hover:text-[#A3DC2F] transition-all'>Blogs</li>
                  <li className='hover:text-[#A3DC2F] transition-all'><Link to={"interoperability"}>Interoperability</Link></li>
