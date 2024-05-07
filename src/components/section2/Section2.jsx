@@ -11,7 +11,7 @@ const Section2 = (props) => {
         <>
 <img className={`mt-[70px] ${props.imageHidden} max-[800px]:w-[10%]`} src={vector} alt=''/>
     <div className={`flex justify-around flex-wrap ${props.mirror}`}>
-        
+      
         <div className="img">
         <img className="w-[390px] mb-4 max-[600px]:w-[250px] mx-16" src={props.image} alt='image'/>
         </div>
