@@ -48,14 +48,17 @@ const Section4 = () => {
     
   return (
     <div>
-      <p className="text-center outfit text-5xl text mt-32">
+      <div className="flex justify-center">
+
+      <p className="text-center outfit text-5xl text mt-32 w-[80%]">
         Addressing <span className="text-[#8ABC3E]"> Common Questions </span>
       </p>
+      </div>
       
         <img className="absolute top-[520vh] max-[1200px]:hidden" src={background} alt="" />
       <div className="flex justify-center flex-wrap gap-5 mt-5">
-      {obj.map((item)=>{
-        return <Section4Card heading={item.head} pera={item.para} image={item.image}/>
+      {obj.map((item , index)=>{
+        return <Section4Card key={index} heading={item.head} pera={item.para} image={item.image}/>
       })}
     
       </div>

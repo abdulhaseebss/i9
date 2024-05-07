@@ -14,10 +14,10 @@ const FaqCard = (props) => {
 
             <div className='flex justify-between items-center'>
                  <h1>{props.ques}</h1>
-                 <i className={`fa-solid fa-chevron-right mr-5 transition-all ${!isOpen ? '' : 'rotate-90'}`}></i>
+                 <i className={`fa-solid fa-chevron-right mr-5 text-[#8ABC3E] transition-all ${!isOpen ? '' : 'rotate-90'}`}></i>
             </div>
 
-            <p className={`mt-5 text-[#3C3C43] font-normal transition-all ${isOpen ? '' : 'hidden'} ${isOpen ? '' : 'animate__animated'} ${isOpen ? '' : 'animate__fadeInDown'}`}>{props.ans}</p>
+            <p className={`mt-5 text-[#3C3C43] font-normal transition-all ${isOpen ? '' : 'hidden'}`}>{props.ans}</p>
         </div>
     </div>
     </>

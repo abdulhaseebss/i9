@@ -25,8 +25,8 @@ const Section7 = () => {
   return (
     <>
     <div className='flex justify-center flex-wrap gap-5 mt-16'>
-        {obj.map((item)=>{
-            return <Section4Card heading={item.head} pera={item.pera} image={item.image}/>
+        {obj.map((item , index)=>{
+            return <Section4Card key={index} heading={item.head} pera={item.pera} image={item.image}/>
         })}
     </div>
     </>

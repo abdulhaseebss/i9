@@ -8,7 +8,7 @@ const Banner = (props) => {
     <>
       <div className="mt-12 flex items-center justify-center">
         <img className="absolute top-[25vh]" src={banner} alt="banner" />
-        <div  className="outfit text-center relative top-[15vh] text-5xl text-[#0065C0] ">
+        <div  className="outfit text-center relative top-[15vh] text-5xl text-[#0065C0] mx-[15%]">
           <h2>
             {props.heading}
           </h2>

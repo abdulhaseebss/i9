@@ -5,7 +5,7 @@ import groupMain from '../../assets/Groupmain3.png'
 const Section8 = () => {
 
     const text = <p>Pioneers in <span className='text-[#8ABC3E]'>Digital Healthcare</span></p>
-    const peragraph = <p>At i9, we understand the importance of a lasting logo. <br /> Our experienced designers listen to your needs, <br /> crafting logos that convey your brand's name, <br /> sincerity, and dedication. With a futuristic approach, <br /> we ensure your logo stands out, attracting attention <br /> and respect for your business</p>
+    const peragraph = <p>At i9, we understand the importance of a lasting logo. Our experienced designers listen to your needs, crafting logos that convey your brand's name, sincerity, and dedication. With a futuristic approach, we ensure your logo stands out, attracting attention and respect for your business</p>
 
     const text2 = <p>The Ultimate <span className='text-[#8ABC3E]'>Healthcare Management <br /> Software</span></p>
     const text3 = <p>Beyond Software, <span className='text-[#8ABC3E]'>A Healthcare <br /> Revolution</span></p>

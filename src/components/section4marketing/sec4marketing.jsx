@@ -43,9 +43,9 @@ const obj = [
 
   return (
     <>
-      <div className="mt-28">
-        <p className="outfit text-center mt-28 font-bold text-[46px] max-[850px]:text-4xl max-[700px]:text-3xl">
-          <span className="text-[#8ABC3E]">Key Features of Our </span> Pharmacy and Clinic Apps
+      <div className="mt-28 flex justify-center">
+        <p className="outfit text-center mt-28 font-bold text-[46px] max-[850px]:text-4xl max-[700px]:text-3xl w-[80%]">
+          <span className="text-[#8ABC3E] ">Key Features of Our </span> Pharmacy and Clinic Apps
         </p>
       </div>
 
@@ -55,15 +55,15 @@ const obj = [
 
           <div className=" w-[700px] grid-cols-2 gap-6 place-content-start flex-wrap flex justify-center">
 
-          {obj.map((item)=>{
-             return <Sec4MarketCard head={item.head} pera={item.para} image={item.image}/>
+          {obj.map((item ,index)=>{
+             return <Sec4MarketCard key={index} head={item.head} pera={item.para} image={item.image}/>
                
           })}
         
           </div>
 
       <div className="marker4img child-2">
-          <img className="h-[420px] " src={sec4} alt="" />
+          <img className="w-[400px] " src={sec4} alt="" />
         </div>
       </div>
 

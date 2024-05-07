@@ -47,14 +47,18 @@ const obj = [
   return (
     <div className=" ">
     <div className="mt-20 bg-[#F5F5F9] pt-3 pb-6">
-    <p className="outfit text-5xl text-center mt-20">
-        The Super Dr <span className="text-[#8ABC3E]"> Advantages</span>
-      </p>
+
+        <div className="flex justify-center">
+             <p className="outfit text-5xl text-center mt-20 w-[80%]">
+                 The Super Dr <span className="text-[#8ABC3E]"> Advantages</span>
+             </p>
+        </div>
+
       <img className="ml-28 h-32 max-[680px]:hidden" src={vector75} alt="" />
       <div className="flex justify-center flex-wrap gap-5 mb-20 max-[680px]:mt-10">
         {
-            obj.map((item)=>{
-               return <Section5Card heading={item.head} pera={item.para}/>
+            obj.map((item , index)=>{
+               return <Section5Card key={index} heading={item.head} pera={item.para}/>
             })
         }
       

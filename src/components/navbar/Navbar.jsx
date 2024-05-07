@@ -34,7 +34,7 @@ const Navbar = () => {
 
             <div className='flex gap-10 max-[1100px]:gap-5 transition-all'>
             <li className='cursor-pointer hover:text-[#A3DC2F] transition-all'><Link to={"interoperability"}>Interoperability</Link></li>
-            <li className='cursor-pointer hover:text-[#A3DC2F] transition-all'>Awards</li>
+            <li className='cursor-pointer hover:text-[#A3DC2F] transition-all'><Link to={"award"}>Awards</Link></li>
             <li className='cursor-pointer hover:text-[#A3DC2F] transition-all'>ABDM</li>
             <li className='cursor-pointer hover:text-[#A3DC2F] transition-all'>Career</li>
             </div>
@@ -62,7 +62,7 @@ const Navbar = () => {
                  <li className='hover:text-[#A3DC2F] transition-all'><Link to={'marketing'}>Marketing</Link></li>
                  <li className='hover:text-[#A3DC2F] transition-all'>Blogs</li>
                  <li className='hover:text-[#A3DC2F] transition-all'><Link to={"interoperability"}>Interoperability</Link></li>
-                 <li className='hover:text-[#A3DC2F] transition-all'>Awards</li>
+                 <li className='hover:text-[#A3DC2F] transition-all'><Link to={"award"}>Awards</Link></li>
                  <li className='hover:text-[#A3DC2F] transition-all'>ABDM</li>
                  <li className='hover:text-[#A3DC2F] transition-all'>Career</li>
                </SheetHeader>
