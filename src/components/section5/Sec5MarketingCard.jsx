@@ -16,7 +16,7 @@ const SecMarketingCard = (props) => {
     <>
         <div className='flex gap-5 shadow-xl p-3 w-[540px] outfit items-center rounded-xl px-5 mt-5 mx-5' >
           <div><img className=' transition-all w-[150px] rounded-2xl' src={props.image} alt="" /></div>
-          <div className='w-[90%] h-[20vh]'>
+          <div className='w-[90%]'>
             <p className='mb-5 text-xl'>{props.head}</p>
 
           <p className='font-normal transition-all'>

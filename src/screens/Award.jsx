@@ -116,7 +116,7 @@ const Award = () => {
 </div>
 
 <div className="flex justify-center mt-24">
-        <p className="text-center font-bold text-[46px] outfit text-[#8ABC3E]"> Key Features<span className="text-black"> and </span>Benefits:</p>
+        <p className="text-center font-bold text-[46px] outfit text-[#8ABC3E] w-[80%]"> Key Features<span className="text-black"> and </span>Benefits:</p>
        
     </div>
 

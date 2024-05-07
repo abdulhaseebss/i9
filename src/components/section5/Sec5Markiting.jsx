@@ -39,7 +39,10 @@ const Sec5Markiting = () => {
   return (
     <>
         <div>
-        <p className="text-center mt-28 font-bold text-[46px] max-[850px]:text-4xl max-[700px]:text-3xl">Essential Features of Our <span className="text-[#8ABC3E]">Healthcare Apps</span></p>
+            <div className='flex justify-center'>
+
+        <p className="text-center mt-28 font-bold text-[46px] max-[850px]:text-4xl max-[700px]:text-3xl w-[80%]">Essential Features of Our <span className="text-[#8ABC3E]">Healthcare Apps</span></p>
+            </div>
             <div className='flex justify-center gap-5 flex-wrap mt-10'>
                 {
                     obj.map((item , index)=>{

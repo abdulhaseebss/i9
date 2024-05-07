@@ -43,9 +43,9 @@ const obj = [
 
   return (
     <>
-      <div className="mt-28">
-        <p className="outfit text-center mt-28 font-bold text-[46px] max-[850px]:text-4xl max-[700px]:text-3xl">
-          <span className="text-[#8ABC3E]">Key Features of Our </span> Pharmacy and Clinic Apps
+      <div className="mt-28 flex justify-center">
+        <p className="outfit text-center mt-28 font-bold text-[46px] max-[850px]:text-4xl max-[700px]:text-3xl w-[80%]">
+          <span className="text-[#8ABC3E] ">Key Features of Our </span> Pharmacy and Clinic Apps
         </p>
       </div>
 

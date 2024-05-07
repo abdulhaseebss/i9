@@ -83,7 +83,7 @@ const obj = [
 <Section2 image={Group} heading={text} pera={peragraph} hidden={"hidden"} />
 
 <div className="flex justify-center">
-        <p className="text-center font-bold text-[46px] outfit"> <span className="text-[#8ABC3E]">Key Advantages </span>of Hospital <br/> Information Systems</p>
+        <p className="text-center font-bold text-[46px] outfit w-[80%]"> <span className="text-[#8ABC3E]">Key Advantages </span>of Hospital Information Systems</p>
        
     </div>
 

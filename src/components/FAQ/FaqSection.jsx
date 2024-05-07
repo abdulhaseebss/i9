@@ -36,7 +36,10 @@ const FaqSection = () => {
 
   return (
     <>
-    <h2 className='text-3xl mt-28 text-center outfit'>Basic FAQs for <span className='text-[#8ABC3E]'> Clinic & Pharmacy</span> <br /> App Development</h2>
+    <div className='flex justify-center'>
+
+    <h2 className='text-3xl mt-28 text-center outfit w-[80%]'>Basic FAQs for <span className='text-[#8ABC3E]'> Clinic & Pharmacy</span> App Development</h2>
+    </div>
  
     <div className='mt-16'>
 
